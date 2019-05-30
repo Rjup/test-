@@ -1,0 +1,5 @@
+#surefire
+#Thu May 23 08:04:34 UTC 2019
+user.dir=/home/centos/karate-mini-mocks
+localRepository=/home/centos/.m2/repository
+basedir=/home/centos/karate-mini-mocks

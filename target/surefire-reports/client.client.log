@@ -1,0 +1,105 @@
+07:28:56.486 karate.env= mock 
+07:28:56.488 baseULR= mock 
+07:28:56.785 request:
+1 > POST http://localhost:44667/cats
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 17
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:44667
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_212)
+{"name":"Billie"}
+
+07:28:56.961 response time in milliseconds: 174
+1 < 201
+1 < Content-Type: application/json
+{"name":"Billie","id":"5d636c01-67a8-4eac-a85c-a83a72c7417f"}
+
+07:28:56.970 request:
+2 > GET http://localhost:44667/cats/5d636c01-67a8-4eac-a85c-a83a72c7417f
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: localhost:44667
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_212)
+
+07:28:57.006 response time in milliseconds: 35
+2 < 200
+2 < Content-Type: application/json
+{"name":"Billie","id":"5d636c01-67a8-4eac-a85c-a83a72c7417f"}
+
+07:28:57.010 request:
+3 > GET http://localhost:44667/cats
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Host: localhost:44667
+3 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_212)
+
+07:28:57.019 response time in milliseconds: 9
+3 < 200
+3 < Content-Type: application/json
+[{"name":"Billie","id":"5d636c01-67a8-4eac-a85c-a83a72c7417f"}]
+
+07:28:57.026 request:
+4 > POST http://localhost:44667/cats
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 14
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:44667
+4 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_212)
+{"name":"Bob"}
+
+07:28:57.036 response time in milliseconds: 10
+4 < 201
+4 < Content-Type: application/json
+{"name":"Bob","id":"9236390f-ed35-4b36-82ac-d6b48b7672f9"}
+
+07:28:57.039 request:
+5 > GET http://localhost:44667/cats/9236390f-ed35-4b36-82ac-d6b48b7672f9
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Host: localhost:44667
+5 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_212)
+
+07:28:57.051 response time in milliseconds: 11
+5 < 200
+5 < Content-Type: application/json
+{"name":"Bob","id":"9236390f-ed35-4b36-82ac-d6b48b7672f9"}
+
+07:28:57.060 request:
+6 > GET http://localhost:44667/cats/9236390f-ed35-4b36-82ac-d6b48b7672f9
+6 > Accept: text/xml
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: localhost:44667
+6 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_212)
+
+07:28:57.155 response time in milliseconds: 94
+6 < 200
+6 < Content-Type: text/xml
+<cat><id>9236390f-ed35-4b36-82ac-d6b48b7672f9</id><name>Bob</name></cat>
+
+07:28:57.187 request:
+7 > GET http://localhost:44667/cats
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:44667
+7 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_212)
+
+07:28:57.200 response time in milliseconds: 13
+7 < 200
+7 < Content-Type: application/json
+[{"name":"Billie","id":"5d636c01-67a8-4eac-a85c-a83a72c7417f"},{"name":"Bob","id":"9236390f-ed35-4b36-82ac-d6b48b7672f9"}]
+
+07:28:57.207 request:
+8 > GET http://localhost:44667/cats/1234
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:44667
+8 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_212)
+
+07:28:57.238 response time in milliseconds: 31
+8 < 404
+
+
+

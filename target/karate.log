@@ -1,0 +1,56 @@
+05:44:52.151 [main] WARN  com.intuit.karate.junit4.Karate - CucumberOptions annotation not found on class: class client.ClientTest
+05:44:53.334 [main] INFO  com.intuit.karate - backend initialized
+05:44:58.482 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://0:0:0:0:0:0:0:0:35663
+05:44:58.718 [main] INFO  com.intuit.karate - karate.env= mock 
+05:44:58.720 [main] INFO  com.intuit.karate - baseULR= mock 
+05:44:59.746 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutting down
+05:44:59.746 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutdown complete
+06:40:52.284 [main] WARN  com.intuit.karate.junit4.Karate - CucumberOptions annotation not found on class: class client.ClientTest
+06:40:53.245 [main] INFO  com.intuit.karate - backend initialized
+06:40:53.370 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://0:0:0:0:0:0:0:0:37477
+06:40:53.543 [main] INFO  com.intuit.karate - karate.env= mock 
+06:40:53.544 [main] INFO  com.intuit.karate - baseULR= mock 
+06:40:54.367 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutting down
+06:40:54.367 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutdown complete
+07:41:18.681 [main] WARN  com.intuit.karate.junit4.Karate - CucumberOptions annotation not found on class: class client.ClientTest
+07:41:19.735 [main] INFO  com.intuit.karate - backend initialized
+07:41:24.861 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://0:0:0:0:0:0:0:0:38735
+07:41:25.070 [main] INFO  com.intuit.karate - karate.env= mock 
+07:41:25.072 [main] INFO  com.intuit.karate - baseULR= mock 
+07:41:25.957 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutting down
+07:41:25.957 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutdown complete
+08:04:34.902 [main] WARN  com.intuit.karate.junit4.Karate - CucumberOptions annotation not found on class: class client.ClientTest
+08:04:35.868 [main] INFO  com.intuit.karate - backend initialized
+08:04:35.969 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://0:0:0:0:0:0:0:0:36740
+08:04:36.172 [main] INFO  com.intuit.karate - karate.env= mock 
+08:04:36.174 [main] INFO  com.intuit.karate - baseULR= mock 
+08:04:36.941 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutting down
+08:04:36.941 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutdown complete
+00:07:24.094 [main] WARN  com.intuit.karate.junit4.Karate - CucumberOptions annotation not found on class: class client.ClientTest
+00:07:25.645 [main] INFO  com.intuit.karate - backend initialized
+00:07:30.771 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://0:0:0:0:0:0:0:0:33149
+00:07:31.008 [main] INFO  com.intuit.karate - karate.env= mock 
+00:07:31.056 [main] INFO  com.intuit.karate - baseULR= mock 
+00:07:32.224 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutting down
+00:07:32.224 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutdown complete
+02:02:56.857 [main] WARN  com.intuit.karate.junit4.Karate - CucumberOptions annotation not found on class: class client.ClientTest
+02:02:57.897 [main] INFO  com.intuit.karate - backend initialized
+02:03:08.054 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://0:0:0:0:0:0:0:0:37894
+02:03:08.268 [main] INFO  com.intuit.karate - karate.env= mock 
+02:03:08.276 [main] INFO  com.intuit.karate - baseULR= mock 
+02:03:09.204 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutting down
+02:03:09.204 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutdown complete
+06:05:05.953 [main] WARN  com.intuit.karate.junit4.Karate - CucumberOptions annotation not found on class: class client.ClientTest
+06:05:06.865 [main] INFO  com.intuit.karate - backend initialized
+06:05:12.012 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://0:0:0:0:0:0:0:0:38257
+06:05:12.218 [main] INFO  com.intuit.karate - karate.env= mock 
+06:05:12.219 [main] INFO  com.intuit.karate - baseULR= mock 
+06:05:13.118 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutting down
+06:05:13.118 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutdown complete
+07:28:50.200 [main] WARN  com.intuit.karate.junit4.Karate - CucumberOptions annotation not found on class: class client.ClientTest
+07:28:51.165 [main] INFO  com.intuit.karate - backend initialized
+07:28:56.271 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://0:0:0:0:0:0:0:0:44667
+07:28:56.486 [main] INFO  com.intuit.karate - karate.env= mock 
+07:28:56.488 [main] INFO  com.intuit.karate - baseULR= mock 
+07:28:57.290 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutting down
+07:28:57.290 [main] INFO  c.intuit.karate.netty.FeatureServer - stop: shutdown complete
